@@ -30,6 +30,7 @@ const submit = (username, password) => {
             text: "Invalid credentials",
             duration: 3000,
         }).showToast()
+        
         passwordInput.value = ""
         passwordInput.focus()
     })

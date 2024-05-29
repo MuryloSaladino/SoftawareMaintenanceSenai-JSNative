@@ -46,3 +46,17 @@ button {
 button.ready {
   background-color: var(--primary);
 }
+
+
+fieldset {
+  position: relative;
+}
+
+img.eye {
+  width: 20px;
+  position: absolute;
+  top: 8px;
+  right: 10px;
+
+  cursor: pointer;
+}
