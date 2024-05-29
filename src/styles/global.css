@@ -1,0 +1,16 @@
+:root {
+    --black: #00171F;
+    --white: #fff;
+
+    --primary: #007EA7;
+    --primary-dark: #003459;
+    --primary-light: #00A8E8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
