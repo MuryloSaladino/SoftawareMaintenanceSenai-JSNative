@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "description": "Produto 1",
-    "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3cExnsB3qat_a-YqS4zThCXsiR4TWk2f4_-Do7MXhw&s",
-    "price": 10.0,
+    "description": "RTX 4090",
+    "imgUrl": "https://asset.msi.com/resize/image/global/product/product_1665552671c76199be0956de9b63d7e35b33b91acb.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+    "price": 15000.0,
     "status": true,
     "amount": 5
   },
   {
     "id": 2,
-    "description": "Produto 2",
-    "imgUrl": "https://storage.alboom.ninja/sites/7474/albuns/343827/fotografia-de-produtos-campinas-fotografo-publicidade-aloha-life-11.jpg?t=1541510096",
-    "price": 20.0,
-    "status": true,
-    "amount": 15
+    "description": "SSD M.2",
+    "imgUrl": "https://www.pny.com/productimages/18034E33-3192-46E5-9D8B-AE2201131440/images/PNY-CS2140-SSD-M.2-NVME-fr.png",
+    "price": 290.0,
+    "status": false,
+    "amount": 0
   },
   {
     "id": 3,
-    "description": "Produto 3",
-    "imgUrl": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
-    "price": 30.0,
+    "description": "Intel Core i9",
+    "imgUrl": "https://img.terabyteshop.com.br/produto/g/processador-intel-core-i9-10900f-280ghz-520ghz-turbo-10-geracao-10-cores-20-threads-lga-1200-bx8070110900f_99002.png",
+    "price": 3900.0,
     "status": true,
     "amount": 50
   }
