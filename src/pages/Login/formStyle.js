@@ -4,17 +4,8 @@ const eyeIcon = document.querySelector(".eye")
 
 inputs.forEach(input => {
   input.addEventListener("input", (e) => {
-    let ready = false
-    
-    if(inputs[0].value.length > 2 && inputs[1].value.length > 5) {
-      ready = true
-    }
 
-    if(ready) {
-      button.classList.add("ready")
-    } else {
-      button.classList.remove("ready")
-    }
+    button.disabled = !(inputs[0].value.length > 2 && inputs[1].value.length > 5)
   })
 })
 

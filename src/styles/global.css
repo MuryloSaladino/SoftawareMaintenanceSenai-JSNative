@@ -2,9 +2,12 @@
     --black: #00171F;
     --white: #fff;
 
-    --primary: #007EA7;
-    --primary-dark: #003459;
-    --primary-light: #00A8E8;
+    --primary: #41395e;
+    --primary-dark: #312b46;
+    --primary-light: #635790;
+
+    --background: #f4bd9e;
+    --background-dark: #6d2126;
 }
 
 * {
@@ -13,4 +16,5 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: var(--background);
 }

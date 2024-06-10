@@ -82,8 +82,8 @@ main {
 }
 
 .available {
-    background-color: rgb(255, 0, 0, .6);
+    background-color: rgb(0, 255, 0, .6);
 }
 .unavailable {
-    background-color: rgb(0, 255, 0, .6);
+    background-color: rgb(255, 0, 0, .6);
 }
