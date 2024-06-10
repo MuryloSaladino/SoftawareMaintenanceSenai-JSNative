@@ -11,9 +11,5 @@ inputs.forEach(input => {
 
 
 eyeIcon.addEventListener("click", (e) => {
-  if(inputs[1].type == "password") {
-    inputs[1].type = "text"
-  } else {
-    inputs[1].type = "password"
-  }
+  inputs[1].type = inputs[1].type == "password" ? "text" : "password"
 })
