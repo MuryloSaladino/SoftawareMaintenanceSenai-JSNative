@@ -27,26 +27,6 @@ form {
   gap: 15px;
 }
 
-input {
-  width: 100%;
-
-  padding: 10px 20px;
-  border: 1px solid rgb(0, 0, 0, .6);
-  border-radius: 10px;
-  outline: none;
-}
-
-button {
-  padding: 8px 20px;
-  border-radius: 10px;
-  border: none;
-
-  align-self: flex-end;
-}
-button.ready {
-  background-color: var(--primary);
-}
-
 
 fieldset {
   position: relative;

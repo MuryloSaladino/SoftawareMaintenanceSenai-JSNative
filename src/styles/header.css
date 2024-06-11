@@ -7,7 +7,7 @@ header {
     min-height: 50px;
 
     background-color: var(--primary);
-    padding: 15px 25px;
+    padding: 25px 35px;
 
     display: flex;
     align-items: center;
@@ -17,6 +17,9 @@ header {
     top: 0;
 
     color: white;
+    z-index: 1;
+
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.6);
 }
 
 header > nav {
@@ -43,4 +46,31 @@ header a::after {
 }
 header a[active]::after, header a:hover::after {
     transform: scaleX(1);
+}
+
+
+.menu-btn-cb, .menu-btn {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .menu-btn {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        transform: scaleY(0);
+    }
+
+    .menu-btn-cb:checked + nav {
+        display: flex;
+        transform: scaleY(1);
+    }
+
+    nav, header {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+    }
 }
