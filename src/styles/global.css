@@ -18,3 +18,11 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--background);
 }
+
+.logo {
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    left: 15px;
+    width: 50px;
+}
