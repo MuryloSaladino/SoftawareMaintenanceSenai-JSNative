@@ -46,5 +46,7 @@ main {
     justify-content: space-between;
 }
 #cartList > li > span {
-
+    position: absolute;
+    top: 0;
+    
 }

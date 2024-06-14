@@ -6,6 +6,15 @@ function renderProducts(cart) {
 
     list.innerHTML = ""
 
+    if(cart.length == 0) {
+        list.insertAdjacentHTML("beforeend", `
+            <li>
+                <h6>No products added yet</h6>
+            </li>
+        `)
+        return
+    }
+
     cart.forEach(cartProduct => {
 
         const product = products.find(element => element.id == cartProduct.id)
